@@ -2,19 +2,7 @@
 This application uses FastAPI to manage quests and journal entries in an SQLite database. It supports functionality for creating, reading, updating, and deleting quests and journal entries, allowing for users to easily track quest/journal data for campaigns. 
 
 # Requirements
-FastAPI
-
-SQLModel 
-
-typing
-
-datetime
-
-requests
-
-Uvicorn
-
-SQLite
+FastAPI, SQLModel, typing, datetime, requests, Uvicorn, SQLite
 
 
 # Request Data
