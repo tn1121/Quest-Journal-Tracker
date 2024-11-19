@@ -24,7 +24,8 @@ def test_create_quest(quest_data):
     response = requests.post(URL, json=quest_data)
     print("CREATE Response:", response.json())
     return response.json()
-#Receive Data
+    
+# Receive Data
 B. To recieve data, HTTP methods will also work, with the response being in JSON format. When creating or updating quests or journal entries, the data must use a specific format that follows the database models. 
 EXAMPLE: Receiving POST request to create a new quest 
 @app.post("/quests/")
