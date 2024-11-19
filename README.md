@@ -3,11 +3,17 @@ This application uses FastAPI to manage quests and journal entries in an SQLite 
 
 # Requirements
 FastAPI
+
 SQLModel 
+
 typing
+
 datetime
+
 requests
+
 Uvicorn
+
 SQLite
 
 
